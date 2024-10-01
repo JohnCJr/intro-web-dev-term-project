@@ -1,0 +1,443 @@
+@charset "utf-8";
+
+/*
+John Cabanas
+Date: 11/06/22
+Filename: term.html
+Assignment: Term Project
+*/
+
+
+/*-------------horizontal navbar styling---------------------*/
+
+nav.homeNavigation li {
+	float: left;
+	width: 25%;
+	border: 1em solid black;
+}  
+
+nav.homeNavigation a {
+	background-color: rgba(255, 160, 0, 1);
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	text-align: center;
+	padding: 3px 0px; 
+}
+
+nav.homeNavigation ul li a:hover, nav.homeNavigation ul li a:active {
+	background-color: darkgreen;
+	color: white;
+}
+
+/*------------------------------------------------------------*/
+
+/* style for footer found on all pages */
+footer {
+	font-size: 1em; 
+	color: white;
+	width: 100%;
+	float: left;
+	background: black;
+	line-height: 1.5em;
+}
+
+/*-------------hyperlink styling---------------------*/
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover, .extLinks a:hover {
+	color: white;
+}
+
+a:visited, .extLinks a:visited {
+	text-decoration: none;
+}
+
+a:active, .extLinks a:active {
+	color: darkblue;
+}
+
+/*------------------------------------------------------*/
+
+/*---------------image/video styling--------------------*/
+
+img {
+	width: 100%;
+	border: 6px solid black;
+	margin:.8em 0;
+	height: 100%; 
+	border-radius: 10%;
+}
+
+iframe {
+	border: 4px solid grey;
+	width: 100%;
+	height: 60vw;
+	margin-bottom: 10px;
+	border-radius: 10%;
+}
+
+.resPic {
+	display: inline-block;
+	margin-bottom: .8em;
+}
+
+.resPicFirst {
+	max-height: 80%;
+}
+
+/*------------------------------------------------------*/
+
+/*--------------------header styles---------------------*/
+
+.banner {
+	padding: 14px 0px;
+	width: 100%;
+	display: block;
+	background-image: linear-gradient(to right, black, lightgreen); 
+}
+
+.headerLogo {
+	border: 3px solid darkgreen;
+	border-radius: 60%;
+	margin: 0px 0px 0px .4em;
+	float: left;
+	padding: 0;
+	width: 4em;
+	height: 4em;
+}
+
+header h1 {
+	text-shadow: 2px 2px black;
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	color: rgba(255, 120, 0, 1);
+	text-align: center;
+	line-height: 1em;
+	padding-top: .2em;
+	font-size: 1.8em;
+	width: 80%;
+}
+
+h2 {
+	display: inline-block;
+	background: rgb(61, 45, 45);
+	margin-top: 1em;
+	font-size: 1.8em;
+	text-decoration-line: underline;
+	text-align: center;
+	color: hsl(0, 0%, 90%);
+}
+
+.pageHeading {
+	display: block;
+	background: white;
+	color: hsl(134, 82%, 27%);
+	text-decoration: none;
+}
+
+/* styles h3 and any directly next to an h2 tag */
+h2 + h3, h3 {
+	margin: 0 0 1em 0;
+	color: lightgrey;
+	font-size: 1.3em;
+}
+
+/* doesn't alter the size of h3 tags next to an h2 tag */
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-variant: small-caps; 
+	margin:  12px;
+	color: lightgrey;
+}
+
+.about h3 {
+	font-size: 1.5em;
+	color: yellow;
+	display: inline-block;
+	margin-bottom: .5em;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*----------------------description list styles----------------------*/
+
+.extLinks{
+	margin: 1.5em 0;
+}
+
+.extLinks dt {
+	margin: .5em 0;
+	font-size: 1.4em;
+	text-decoration: underline overline .08em;
+	color: black; 
+	text-align: center;
+
+}
+
+.extLinks dd {
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.extLinks a {
+	color: lightgrey; 
+}
+
+/*-------------------------------------------------------------------*/
+
+/*-------blockquote styles for quote on about us page----------------*/
+
+blockquote {
+	display: inline-block;
+}
+
+
+blockquote q {
+	font-size: 1.1em;
+	display: block;
+	text-align: center;
+	margin-bottom: .4em;
+}
+
+blockquote p {
+	color: lightgrey;
+	font-size: 1em;
+	display: block;
+	float: right;
+	text-align: right;
+	margin-bottom: .4em;
+}
+
+/*---------------------------------------------------------------------*/
+
+article aside {
+	padding: 10px;
+	display: block;
+	float: left;
+	border: 5px solid rgba(60, 10, 10, 0.97);
+	box-shadow: .3em .3em rgba(60, 10, 10, 0.20);
+	margin: 2em 0px; 
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+hr {
+	border: 2px solid black;
+}
+
+/*used for ul and dl*/
+.centerLeft {
+	display: inline-block;
+	text-align: left;
+	font-size: 1.3em;
+	font-weight: bold;
+	border: 3px dotted white;
+	padding: .5em;
+}
+
+address {
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+hr {
+	margin-bottom: 1em;
+}
+
+ aside p {
+	text-align: left;
+}
+	
+.about p {
+	text-align: center;
+}
+
+/* =================================
+   Mobile Styles: 0px to 480px
+   =================================
+ */
+ @media only screen and (max-width: 480px) {
+	
+	nav.homeNavigation li {
+		width: 100%;
+		border: 3px solid black;
+	}  
+ }
+ 
+ /* =================================
+    Tablet Styles: 481px and greater
+    =================================
+ */
+ @media only screen and (min-width: 481px) {
+	
+	nav.homeNavigation li{
+		border: 6px solid black;
+	}  
+	
+	/*-adjusts width of 1st and 2nd li, so 2nd li can fit on the same line-*/
+	nav.homeNavigation li:nth-of-type(1){
+		width: 20%;
+	} 
+	
+	nav.homeNavigation li:nth-of-type(2){
+		width: 30%;
+	} 
+	/*---------------------------------------------------------------------*/
+	
+	.headerLogo {
+		margin: 0px 0px 0px 1.1em;
+		width: 6em;
+		height: 6em;
+	}
+	
+	.banner {
+		padding: 1em 0px;
+	}
+	
+	header h1 {
+		font-size: 2.7em;
+	}
+	
+	iframe {
+		width: 90%;
+		height: 30rem;
+		border-radius: 5%;
+	}
+	
+	th, tr, td {
+		height: 1.6em;
+	}
+	
+	.extLinks .centerLeft {
+		margin-bottom: 0;
+		padding: 0 1.5em 1em;
+	}
+ }
+ 
+  /* =================================
+     Desktop Styles:  821px and greater
+     =================================
+ */
+ @media only screen and (min-width: 821px) {
+	
+	body {
+		box-shadow: 10px 0px 40px rgb(51, 51, 51), -10px 0px 40px rgb(51, 51, 51); 
+		margin: 0 auto;
+		max-width: 1300px;
+	}
+	
+	.headerLogo {
+		margin: 0px 0px 0px 1.5em;
+	}
+	
+	.banner {
+		padding: 1em 0px 2.5em 0px;
+	}
+	
+	header h1 {
+		padding-top: .5em;
+	}
+	
+	h2, h3, h4 {
+		clear: both;
+	}
+	
+	article h2 {
+		display: block;
+		clear: left;
+	}
+	
+	/* alters the direct child of teh main tag */
+	main > img {
+		width:  80%;
+	 	margin: 2em 10% 0;
+	}
+
+	article img, .resPic {
+		display: inline-block;
+		margin-left: 2em;
+		float: left;
+		clear: left;
+		width: 40%;
+		height: 40%; 
+	}
+	
+	.resPic {
+		margin-left: 5em;
+		margin-right: 0;
+	}
+	
+	article {
+		display: inline-block;
+		height: 100%;
+	}
+	
+	article aside {
+		margin-top: 1rem;
+	 	margin-right: 2em;
+		float: right;
+		width: 50%;
+	}
+	
+	iframe {
+		width: 85%;
+		height: 40rem;
+	}
+	
+	aside.about {
+		margin-left: 5%;
+		margin-right: 5%;
+		display: block;
+		float: left;
+		width: 90%;
+	}
+	
+	.about img {
+		margin: 2.3em 14%;
+		width: 75%;
+		display: inline-block;
+		float: left;
+	}
+	
+	.extLinks {
+		width: 45%;
+		display: inline-block;
+		float: right;
+		margin-top: 2.8em;
+		margin-left: 0;
+		margin-right: .5em;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	table.upcoming {
+	 	max-width:  80%;
+		margin: auto;
+	}
+	
+	blockquote q {
+		font-size: 1.3em;
+	}
+	
+	blockquote p {
+		font-size: 1.2em;
+	}	 
+}

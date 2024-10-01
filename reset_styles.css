@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*
+John Cabanas
+Date: 10/28/22
+Filename: reset_styles.html
+Assignment: Term Project
+*/
+
+
+/* Basic styles to be used with all devices and under all conditions */
+
+address, article, aside, body, blockquote, caption, 
+div, dl, dt, dd, em, footer, 
+h1, h2, h3, h4, header, html, img, 
+li, main, nav, nav a, p, q, section, table, ul, iframe {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	box-sizing: border-box;  
+	color: white;
+	background:  transparent;
+}
+
+
+html {
+	height: 100%;
+	background-color: lightgreen;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+article, aside, footer, header, 
+img, main, nav, nav.homeNavigation a {
+	display: block;
+	text-align: center;
+}
+
+
+body {
+	min-height: 100%;
+	background: green;
+}
+
+
+main {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

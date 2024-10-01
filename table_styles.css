@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*
+John Cabanas
+Date: 12/03/22
+Filename: table_styles.css
+Assignment: Term Project
+*/
+
+
+/*****************table style********************/
+
+table.upcoming {
+	margin-top: 1em;
+	background: darkgreen;
+	border: 5px solid black;
+	border-collapse: collapse;
+	font-size: 1em;
+	width: 100%;
+	table-layout: fixed;
+}
+
+table.upcoming th, table.upcoming td {
+	border: .2em solid white;
+	padding: 3px;
+	vertical-align: top;
+}
+
+
+table.upcoming caption {
+	color: lightgrey;
+	caption-side: bottom;
+	text-align: right;
+	padding-right: .6em;
+}
+
+table.upcoming thead {
+	background: rgb(255, 95, 0);
+	color: white;
+	text-decoration: underline;
+}
+
+
+table.upcoming tfoot {
+	background: black;
+	color: white;
+	
+}
+
+
+table.upcoming tfoot td {
+	padding: .3em 0 0 0;
+}
+
+
+table.upcoming thead tr {
+	height: 2.5em;
+}
+
+
+table.upcoming tbody th {
+	background: lightblue;
+	color: black;
+}
+
+
+table.upcoming tbody tr {
+	height: 1em;
+}
+/************************************************/
